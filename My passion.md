@@ -25,8 +25,4 @@ My Passion is worship
 ```sh
 Do any work, do it whole heartedly and honestly.
 ```
-
-
- 
-
- <a href="https://www.facebook.com/vreshabbhan.rana/"><img src=https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-64.png></a>
+<h1 align=center>Connect with me</h1>
