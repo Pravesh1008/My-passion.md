@@ -1,4 +1,4 @@
-# Hello guys, I am Pravesh
+# Hello guys, I am Pravesh 👋
 ```sh
 My Passion is worship
 ```
@@ -25,3 +25,7 @@ My Passion is worship
 ```sh
 Do any work, do it whole heartedly and honestly.
 ```
+
+ <h1 align=center> connect with me </h1>
+ 
+ <a href= "https://www.facebook.com/"><img src="https://raw.githubusercontent.com/praneeth-rdy/praneeth-rdy/master/assets/facebook.png"/></a>
