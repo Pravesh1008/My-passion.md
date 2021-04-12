@@ -1,29 +1,5 @@
 # Hey there! I'm Pravesh <img src="https://github.com/himanshusharma89/himanshusharma89/blob/master/Hi.gif" width="50px">
 --------------
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-    <a href="#Academic Qualification">Academic Qualification</a>
-    </li>
-    <li>
-    <a href="#Currently what am i doing">currently what am i doing</a>
-    </li>
-    <li>
-    <a href="#My Goal">My Goal</a>
-    </li>
-    <li>
-    <a href="#My Passsion">My Passion</a>
-    </li>
-    <li>
-    <a href="#My Hobby">My Hobby</a>
-    </li>
-    <li>
-    <a href="#My motto">My motto</a>
-    </li>
-  </ol>  
-</details>
-
 
 # Academic Qualification
 ---------------------------
