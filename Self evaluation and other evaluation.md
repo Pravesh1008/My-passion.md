@@ -18,5 +18,16 @@
 
 | **SNO.**| **Test Case**| **Test Case Description**| **Expected Result**| **Actual Result**|
 | :---:    | :---:        |:---                   | :---:              |  :-----:         |
-|**1**|**Average Value** |**<ul><li>**Give the rating excellent for all points**</li><li>**Give the rating very good for all points**</li><li>**Give the rating good for a points**</li><li>**Give the rating satisfactory for all points**</li><li>**Give the rating fair for all points**</li><li>**Give the rating poor for all points**</li><li>**Give the rating different words in all points**</li></ul>**| **<ul><li>**Average value shoould be 5**</li><li>**Average value should be 4**</li><li>**Average value should be 3**</li><li>**Average value should be 2**</li><li>**Average value should be 1**</li><li>**Average value should be 0**</li><li>**Average value should be there acc. to our expectations**</li></ul>** |**73%** |
+|**1**|**Average Value** |**Give the rating excellent for all points**| **AVerage value should be 5** |**PASSED** |
+|**2**|**Average Value** |**Give the rating Very Good for all points**| **AVerage value should be 4** |**PASSED** |
+|**3**|**Average Value** |**Give the rating Good for all points**| **AVerage value should be 3** |**PASSED** |
+|**4**|**Average Value** |**Give the rating Satisfactory for all points**| **AVerage value should be 2** |**PASSED** |
+|**5**|**Average Value** |**Give the rating Fair for all points**| **AVerage value should be 1** |**PASSED** |
+|**6**|**Average Value** |**Give the rating Poor for all points**| **AVerage value should be 0** |**PASSED** |
+|**7**|**Average Value** |**Give the rating fifferent word in all points**| **AVerage value should be there acc. to which point we have givenwichword**|**PASSED** |
+|**1**|**Average Value** |**Give the rating excellent for all points**| **AVerage value should be 5** |**PASSED** |
+|**1**|**Average Value** |**Give the rating excellent for all points**| **AVerage value should be 5** |**PASSED** |
+|**1**|**Average Value** |**Give the rating excellent for all points**| **AVerage value should be 5** |**PASSED** |
+|**1**|**Average Value** |**Give the rating excellent for all points**| **AVerage value should be 5** |**PASSED** |
+
 |**2**|**Intermediate School** |**[C.B.S.E Board Delhi](http://cbseacademic.nic.in/)**|**2014-2015** |**73%** |
