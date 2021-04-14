@@ -18,6 +18,5 @@
 
 | **SNO.**| **Test Case**| **Test Case Description**| **Expected Result**| **Actual Result**|
 | :---     | :---                   | :---         | ---  |  -----                |
-|**1**|**Average Value** |**<ul><li>**Give the rating excellent for all points**</li><li>**Give the rating very good for all points**</li><li>**Give the rating good for a points**</li></ul>
-**|**2013-2014** |**73%** |
+|**1**|**Average Value** |**<ul><li>**Give the rating excellent for all points**</li><li>**Give the rating very good for all points**</li><li>**Give the rating good for a points**</li><li>**Give the rating satisfactory for all points**</li><li>**Give the rating fair for all points**</li><li>**Give the rating poor for all points**</li><li>**Give the rating different words in all points**</li></ul>**|**<ul><li>**Average value shoould be 5**</li><li>**Average value should be 4**</li><li>**Average value should be 3**</li><li>**Average value should be 2**</li><li>**Average value should be 1**</li><li>**Average value should be 0**</li><li>**Average value should be there acc. to our expectations**</li></ul>** |**73%** |
 |**2**|**Intermediate School** |**[C.B.S.E Board Delhi](http://cbseacademic.nic.in/)**|**2014-2015** |**73%** |
