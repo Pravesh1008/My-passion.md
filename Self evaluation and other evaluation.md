@@ -8,10 +8,18 @@
 
 # **How to write formulae**:-
 ```sh
-=SUM(COUNTIF(C7:J7,"Excellent")*5,COUNTIF(C7:J7,"Very Good")*4,COUNTIF(C7:J7,"Good")*3,COUNTIF(C7:J7,"Satisfactory")*2,COUNTIF(C7:J7,"Fair")*1,COUNTIF(C7:J7,"Poor"))/COUNTA(C7:J7)
+   The way of write the formulae according to the our  requirements what i want in the output.
+   ````
+```sh
+    =SUM(COUNTIF(C7:J7,"Excellent")*5,COUNTIF(C7:J7,"Very Good")*4,COUNTIF(C7:J7,"Good")*3,COUNTIF(C7:J7,"Satisfactory")*2,COUNTIF(C7:J7,"Fair")*1,COUNTIF(C7:J7,"Poor"))/COUNTA(C7:J7)
 ```
 -------------
 
+# **How does the formulae work:-**
+```diff
++ Formula it is expression that work on value in a specific range of cell.
++ In the formulae which i mentioned above it taking the value we have given to word and adding them and divided by the total no of column acc. to the range i set. 
+```
 ## **TEST CASES:-**
 
 
@@ -25,4 +33,31 @@
 |**5**|**Average Value** |**Give the rating Fair for all points**| **AVerage value should be 1** |**PASSED** |
 |**6**|**Average Value** |**Give the rating Poor for all points**| **AVerage value should be 0** |**PASSED** |
 |**7**|**Average Value** |**Give the rating different word in all points**| **AVerage value should be there acc. to which point we have givenwichword**|**PASSED** |
-|**8**|**Condition** |**Applied the condition when average value is less then 2.5 the colour will be red of the average column**| **colour should be red*|**PASSED** |
+|**8**|**Condition** |**Applied the condition when average value is less then 2.5 the colour will be red of the average column**| **colour should be red** |**PASSED** |
+
+# **How it was implemented**
+- Implemented rules:-
+```sh
+
+During implementation i used =SUM
+During implementation i used COUNTIF
+During implementation i used COUNTA
+```
+# **Explanation of implementation**:-
+```sh
+=SUM: The SUM function adds values. You can add individual values, cell references or ranges or a mix of all.
+COUNTIF:COUNTIF is an Excel function to count cells in a range that meet a single condition. COUNTIF can be used to count cells that contain dates, numbers, and text. 
+COOUNTA: The COUNTA function counts the number of cells that are not empty in a range.
+```
+# **Test Result**
+```sh
+The test ressult were successfull,when i changed in the sheet then it gives output acc. to changes.
+```
+# **Conclusion**
+```diff
++ I have completed the given task with the help f google.
+```
+```sh
+Thankyou
+Pravesh
+```
