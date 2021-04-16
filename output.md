@@ -1,29 +1,33 @@
-# **Link for downloading the csv format of evaluation of self and others on the basis of previous performance**
+# **Link for downloading the google sheet in csv format for evaluation of self and others on the basis of previous performance.**
 ```sh
 https://docs.google.com/spreadsheets/d/e/2PACX-1vS7d8UCm5qMNKz4PmFvQTSOcsmf-pVwmeNL88oAU51rdAup_GpnWC6ASrCLb4oD5grzS97Xbxf4uXiH/pub?output=csv
 ```
 --------
-# **Link for downloading thhe csv format of evaluation of self and others on the basis of task1**
+# **Link for downloading the google sheet in  csv format for evaluation of self and others on the basis of task1.**
 ------
 ```sh
 https://docs.google.com/spreadsheets/d/e/2PACX-1vQU2lDfo3k2-d-bKmY48JNMTrZ7jah4AmhKD1ED-i9WG5_R7WqAx6h8uKZR7VwIebUajDVYjDtcTQK4/pub?output=csv
 ```
 --------
-# **Bash script for download and display the required output for the google sheet which is on the basis of previous performance in csv format csv format:**
+# **Bash script for download and display the required output of the google sheet in csv format which is on the basis of previous performance in csv format:**
 
 ![preious performance](https://user-images.githubusercontent.com/82143446/115063252-f42bd480-9f08-11eb-9f57-1f8e28ea296f.png)
 -------------------
 
-# **This is the output of script 
+# **This is the output of script:**
 
 ![evaluation on the basis of previous performance](https://user-images.githubusercontent.com/82143446/115064025-065a4280-9f0a-11eb-84a7-0785e5adb845.png)
 ------
-# **Bash script for download and display the required output for the google sheet which is on the basis of previous performance in csv format csv format:**
+# **Bash script for download and display the required output of the google sheet in csv format which is on the basis of task1 performance:**
 
 ![task1 script](https://user-images.githubusercontent.com/82143446/115064876-16265680-9f0b-11eb-807c-8ef3ef603148.png)
 
 ![evaluation on the basis of task 1](https://user-images.githubusercontent.com/82143446/115065457-c8f6b480-9f0b-11eb-8545-25d2545f680f.png)
-
+---------
+ ```sh
+ Thanks 
+ Pravesh
+ ```
 
 
 
