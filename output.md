@@ -14,13 +14,15 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQU2lDfo3k2-d-bKmY48JNMTrZ7jah4A
 ![preious performance](https://user-images.githubusercontent.com/82143446/115063252-f42bd480-9f08-11eb-9f57-1f8e28ea296f.png)
 -------------------
 
-# **This is the output of script:**
+#  **output of script:**
 
 ![evaluation on the basis of previous performance](https://user-images.githubusercontent.com/82143446/115064025-065a4280-9f0a-11eb-84a7-0785e5adb845.png)
 ------
 # **Bash script for download and display the required output of the google sheet in csv format which is on the basis of task1 performance:**
 
 ![task1 script](https://user-images.githubusercontent.com/82143446/115064876-16265680-9f0b-11eb-807c-8ef3ef603148.png)
+
+# **Output of script:**
 
 ![evaluation on the basis of task 1](https://user-images.githubusercontent.com/82143446/115065457-c8f6b480-9f0b-11eb-8545-25d2545f680f.png)
 ---------
