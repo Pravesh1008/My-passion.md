@@ -22,6 +22,8 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQU2lDfo3k2-d-bKmY48JNMTrZ7jah4A
 
 ![task1 script](https://user-images.githubusercontent.com/82143446/115064876-16265680-9f0b-11eb-807c-8ef3ef603148.png)
 
+![evaluation on the basis of task 1](https://user-images.githubusercontent.com/82143446/115065457-c8f6b480-9f0b-11eb-8545-25d2545f680f.png)
+
 
 
 
