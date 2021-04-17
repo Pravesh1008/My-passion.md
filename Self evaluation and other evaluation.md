@@ -53,11 +53,11 @@ During implementation i used COUNTA
 COUNTIF:COUNTIF is an Excel function to count cells in a range that meet a single condition. COUNTIF can be used to count cells that contain dates, numbers, and text. 
 COOUNTA: The COUNTA function counts the number of cells that are not empty in a range.
 ```
-# **Test Result**
+# **Test Result:-**
 ```sh
 The test result were successfull,when i changed in the sheet then it gives output according to changes.
 ```
-# **Conclusion**
+# **Conclusion:-**
 ```diff
 + I have completed the given task with the help of google.
 ```
