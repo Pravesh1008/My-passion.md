@@ -55,7 +55,7 @@ COOUNTA: The COUNTA function counts the number of cells that are not empty in a 
 ```
 # **Test Result**
 ```sh
-The test ressult were successfull,when i changed in the sheet then it gives output according. to changes.
+The test result were successfull,when i changed in the sheet then it gives output according to changes.
 ```
 # **Conclusion**
 ```diff
