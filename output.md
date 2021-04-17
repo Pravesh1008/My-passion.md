@@ -1,3 +1,10 @@
+# REPORT OF TASKS:
+| **SNO.**| **TASK**| **Status**| 
+| :---    | :---:        |:---     | 
+|1|Task1 | Completed | 
+|2|Task2 | Completed | 
+|3|Task3 | Completed (**with adding the sum column in google sheet**) | 
+
 # **Link for downloading the google sheet in csv format for evaluation of self and others on the basis of previous performance.**
 ```sh
 https://docs.google.com/spreadsheets/d/e/2PACX-1vS7d8UCm5qMNKz4PmFvQTSOcsmf-pVwmeNL88oAU51rdAup_GpnWC6ASrCLb4oD5grzS97Xbxf4uXiH/pub?output=csv
