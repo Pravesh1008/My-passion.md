@@ -27,9 +27,7 @@
 
 | **SNO.**| **Test Case**| **Test Case Description**| **Expected Result**| **Actual Result**|
 | :---:    | :---:        |:---                   | :---:              |  :-----:         |
-|1|Sum|I put the formaule in the  average column{=SUM(COUNTIF(C4:J4,"Excellent")*5, COUNTIF(C4:J4,"Very Good")*4,COUNTIF(C4:J4,"Good")*3,
-COUNTIF(C4:J4,"Satisfactory")*2,COUNTIF(C4:J4,"Fair")*1,
-COUNTIF(C4:J4,"Poor")) } | Expected output should be there|**PASSED** |
+|1|Sum|I put the formaule in the  average column{=SUM(COUNTIF(C4:J4,"Excellent")*5, COUNTIF(C4:J4,"Very Good")*4,COUNTIF(C4:J4,"Good")*3,COUNTIF(C4:J4,"Satisfactory")*2,COUNTIF(C4:J4,"Fair")*1,COUNTIF(C4:J4,"Poor")) }| Expected output should be there|**PASSED** |
 |2|Average Value |I put the formaule in the  average column{=SUM(COUNTIF(C4:J4,"Excellent")*5, COUNTIF(C4:J4,"Very Good")*4,COUNTIF(C4:J4,"Good")*3,
 COUNTIF(C4:J4,"Satisfactory")*2,COUNTIF(C4:J4,"Fair")*1,
 COUNTIF(C4:J4,"Poor"))/COUNTA | Expected average value should be there  |**FAILED** |
