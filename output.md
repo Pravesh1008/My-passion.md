@@ -14,10 +14,12 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vS7d8UCm5qMNKz4PmFvQTSOcsmf-pVwm
 ------
 ```sh
 https://docs.google.com/spreadsheets/d/e/2PACX-1vQU2lDfo3k2-d-bKmY48JNMTrZ7jah4AmhKD1ED-i9WG5_R7WqAx6h8uKZR7VwIebUajDVYjDtcTQK4/pub?output=csv
+```
 --------
 # **Bash script for download and display the required output of the google sheet in csv format which is on the basis of previous performance in csv format:**
 
-![screeshoot](https://user-images.githubusercontent.com/82143446/115148100-b8fde280-a07b-11eb-8eb4-668626d216dc.png)
+![screeshoot](https://user-images.githubusercontent.com/82143446/115148178-0f6b2100-a07c-11eb-95f7-3b77f3dddeba.png)
+
 -------------------
 
 #  **output of script:**
