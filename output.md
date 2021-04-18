@@ -1,9 +1,9 @@
 # REPORT OF TASKS:
-| **SNO.**| **TASK**| **Status**| 
+| SNO.| TASK| Status| 
 | :---    | :---:        |:---     | 
-|1|Task1 | Completed | 
-|2|Task2 | Completed | 
-|3|Task3 | Completed (**with adding the sum column in google sheet**) | 
+|1|Task1 | **Completed** | 
+|2|Task2 | **Completed** | 
+|3|Task3 | **Completed** | 
 
 # **Link for downloading the google sheet in csv format for evaluation of self and others on the basis of previous performance.**
 ```sh
@@ -22,7 +22,7 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQU2lDfo3k2-d-bKmY48JNMTrZ7jah4A
 
 -------------------
 
-#  **output of script:**
+#  **Output of script:**
 
 ![output of script](https://user-images.githubusercontent.com/82143446/115148781-c5376f00-a07e-11eb-8ed7-ff3c21b0fa68.png)
 
