@@ -14,7 +14,6 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vS7d8UCm5qMNKz4PmFvQTSOcsmf-pVwm
 ------
 ```sh
 https://docs.google.com/spreadsheets/d/e/2PACX-1vQU2lDfo3k2-d-bKmY48JNMTrZ7jah4AmhKD1ED-i9WG5_R7WqAx6h8uKZR7VwIebUajDVYjDtcTQK4/pub?output=csv
-```
 --------
 # **Bash script for download and display the required output of the google sheet in csv format which is on the basis of previous performance in csv format:**
 
