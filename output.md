@@ -16,7 +16,7 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vS7d8UCm5qMNKz4PmFvQTSOcsmf-pVwm
 https://docs.google.com/spreadsheets/d/e/2PACX-1vQU2lDfo3k2-d-bKmY48JNMTrZ7jah4AmhKD1ED-i9WG5_R7WqAx6h8uKZR7VwIebUajDVYjDtcTQK4/pub?output=csv
 ```
 --------
-# **Bash script for download and display the required output of the both google sheet in csv format which is based on the previous performance and task1 performance in csv format:**
+# **Bash script for download and display the required output of the both google sheet in csv format which is based on the previous performance and task1 performance:**
 
 ![screeshoot](https://user-images.githubusercontent.com/82143446/115148178-0f6b2100-a07c-11eb-95f7-3b77f3dddeba.png)
 
