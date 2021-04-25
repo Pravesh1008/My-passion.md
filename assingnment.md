@@ -10,6 +10,7 @@
 
 |S.NO|Test Cases|Test Case Description|Expected Result|Test Status|Output|
 |:----:|:-----:|:-----:|:-----:|:-----:|:----:|
+1 |**WEB PUBLISHING** |Spread sheet link published by using publish to web option from file of spreadsheet and select the .csv format |Spreadsheet should be published|**PASS** |
 |1 |**Declaring the path of commands in variable** |I declared the path of commands in variable which i used in the script and i ran the script by using **$variable name** |Script should be run |**PASS** |
 |2 |**DOWNLOADING THE GOOGLE SPREAD SHEET IN CSV FORMAT** |I used **$WGET** to download the google spread sheet in csv format |Google spreadsheet in csv format should be downloades |**PASS** |
 
