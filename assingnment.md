@@ -15,7 +15,8 @@
 |2 |**DOWNLOADING THE GOOGLE SPREAD SHEETS IN CSV FORMAT** |I used **$WGET** with url of the google spread sheet to download in csv format |Google spreadsheet in csv format should be downloaded |**PASS** |![proof](https://user-images.githubusercontent.com/82143446/115991630-07b0fc80-a5e7-11eb-993b-fa45d0ca8ab7.png)|
 |1 |**RENAME THE DOWNLOADED FILE** |Renamed  files which was downloading through 3 test case to my.csv and second.csv by using **$MV (DOWNLADED FILES NAME) (NEW FIES NAMES)** |Files should be renamed|**PASS** |
 
-                  
+|1 |**EXTRACT THE REQUIRED COLUMN** | I used AWK command to get the required column** |Script should be run |**PASS** |
+|1 |**DISPLAY THE OUTPUT** | I used cat command to display the output |Script should be run |**PASS** |                
          
             
 
