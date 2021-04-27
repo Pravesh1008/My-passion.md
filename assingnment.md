@@ -14,7 +14,7 @@ Average :
 <details>
   <summary> Test Cases </summary>
 
-|S.NO|Test Cases|command|Test Case Description|Expected Result|Test Status|Output|
+|S.NO|Test Cases|Test Case Description|Expected Result|Test Status|Output|
 |:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|
 |1 |**Published Url** |no command|Spread sheet link published by using publish to web option from file of spreadsheet and select the .csv format |Url should be published|**PASS** |![web publishing](https://user-images.githubusercontent.com/82143446/115991250-4e9df280-a5e5-11eb-827e-d3c267165e33.png)|
 |2 |**Declaring the path of commands in variable** |no command|I declared the path of commands in variables in the configuration file which i used in the script  |Path of command should be declare in the variable |**PASS** |![variable](https://user-images.githubusercontent.com/82143446/116283206-3e367500-a7a9-11eb-9c8f-11058d759b37.png)|
