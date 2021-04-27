@@ -12,7 +12,7 @@ Average :
 
 
 <details>
-  <summary>**Test Cases**</summary>
+  <summary> Test Cases </summary>
 
 |S.NO|Test Cases|Test Case Description|Expected Result|Test Status|Output|
 |:----:|:-----:|:-----:|:-----:|:-----:|:----:|
