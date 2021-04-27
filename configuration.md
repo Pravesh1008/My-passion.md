@@ -30,28 +30,42 @@ option=-q
 #Rename the downloaded file for sheet 1
 
 OLDFILE=/home/prarvesh/assignment/pub?output=csv
+
 NEWFILE=/home/prarvesh/assignment/sheet1.csv
 
 #Rename the downloaded file for sheet 2
 
 OLDFILE1=/home/prarvesh/assignment/pub?output=csv
+
 NEWFILE1=/home/prarvesh/assignment/sheet2.csv
 
 
 #Here the column of the spread sheet
 
 COLUMN1=name
+
 COLUMN2=Average
+
 COLUMN3=punctuality
+
 #COLUMN4=Time management
+
 #COLUMN5=Attendance
+
 #COLUMN6=Communication
+
 #COLUMN7=Requirement analysis
+
 #COLUMN8=Self Learning
+
 #COLUMN9=Grammatical error
+
 #COLUMN10=Creativity
+
 #COLUMN11=Grammatical error
+
 #COLUMN12=S.NO
+
 COLUMN13=Intern Name
 
 #Directory of datafile
