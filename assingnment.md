@@ -25,7 +25,7 @@ Average :
 |7 |**Adding the column in the spreadsheet** |Add the column in the spreadsheet and gives the word to all students |Output should be updated |**PASS**|
 |8 |**Adding the row in the spreadsheet** |Add the row in the spreadsheet and gives the word in all the columns |Output should be updated |**PASS**|
 |9 |**If Column and Row Value Null** |after add column and row in spreadsheet my output effected if column and row value null |Output should be updated with ignoring the null value |**Fail**|
-|10 |**log file** |when script run all logs genrrate in log file |log should be genrated successfully in log file |**pass**|
+|10 |**log file** |when script run all logs genrrate in log file |log should be genrated successfully in log file |**pass**|![log](https://user-images.githubusercontent.com/82143446/116284029-3f1bd680-a7aa-11eb-8c85-fbadf7400252.png)|
  
  </details>
  
