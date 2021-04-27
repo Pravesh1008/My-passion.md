@@ -19,20 +19,20 @@ Average :
 |1 |**Published Url** |no command|Spread sheet link published by using publish to web option from file of spreadsheet and select the .csv format |Url should be published|**PASS** |![web publishing](https://user-images.githubusercontent.com/82143446/115991250-4e9df280-a5e5-11eb-827e-d3c267165e33.png)|
 |2 |**Declaring the path of commands in variable** |no command|I declared the path of commands in variables in the configuration file which i used in the script  |Path of command should be declare in the variable |**PASS** |
 |3 |**DOWNLOADING THE GOOGLE SPREAD SHEETS IN CSV FORMAT** |wget -q url|I used **$WGET** with url of the google spread sheet to download in csv format |Google spreadsheet in csv format should be downloaded |**PASS** |![proof](https://user-images.githubusercontent.com/82143446/115991630-07b0fc80-a5e7-11eb-993b-fa45d0ca8ab7.png)|
-|4 |**RENAME THE DOWNLOADED FILE** |mv oldfilename newfilename|Renamed  files which was downloading through 3 test case to sheet1.csv and sheet2.csv by using **$MV (DOWNLADED FILES NAME) (NEW FIES NAMES)** |Files should be renamed|**PASS** |
-|5 |**EXTRACT THE REQUIRED COLUMN** | I used AWK command to get the required column |Script should be run |**PASS**|
-|6 |**DISPLAY THE OUTPUT using configuration file** |I used the source of connfiguration file in the script and run the script  |Script should be run and display the output |**PASS**| 
-|7 |**Adding the column in the spreadsheet** |Add the column in the spreadsheet and gives the word to all students |Output should be updated |**PASS**|
-|8 |**Adding the row in the spreadsheet** |Add the row in the spreadsheet and gives the word in all the columns |Output should be updated |**PASS**|
-|9 |**If Column and Row Value Null** |after add column and row in spreadsheet my output effected if column and row value null |Output should be updated with ignoring the null value |**Fail**|
-|10 |**log file** |when script run all logs genrrate in log file |log should be genrated successfully in log file |**pass**|
+|4 |**RENAME THE DOWNLOADED FILE** |mv oldfilename newfilename|Renamed  files which was downloading through 3 test case to sheet1.csv and sheet2.csv by using **$MV (DOWNLADED FILES NAME) (NEW FIES NAMES)** |Files should be renamed|**PASS** |output|
+|5 |**EXTRACT THE REQUIRED COLUMN** |awk command |I used AWK command to get the required column |Script should be run |**PASS** |output|
+|6 |**DISPLAY THE OUTPUT using configuration file** |using this command |I used the source of connfiguration file in the script and run the script  |Script should be run and display the output |**PASS** |output| 
+|7 |**Adding the column in the spreadsheet** |No command |Add the column in the spreadsheet and gives the word to all students |Output should be updated |**PASS** |output|
+|8 |**Adding the row in the spreadsheet** |No command |Add the row in the spreadsheet and gives the word in all the columns |Output should be updated |**PASS** |output|
+|9 |**If Column and Row Value Null** |No command |After add column and row in spreadsheet my output effected if column and row value null |Output should be updated with ignoring the null value |**Fail** |output|
+|10 |**log file** |Using this command |when script run all logs genrrate in log file |log should be genrated successfully in log file |**pass** |output|
  
  </details>
  
  
  <details>
   <summary> Configuration File </summary>
-<h2 align="center">This is Configuration file.</h2>  
+  
 This is the main configuration file of script
 
 Here the declaration of the path of commands which used in script.
@@ -135,7 +135,7 @@ minus=2
   
  <details>
   <summary> Script </summary>
-<h2 align="center">This is Script file.</h2>  
+  
 #!/bin/bash
 
 #here we give the source of configuration file
@@ -374,52 +374,7 @@ fi
   
  <details>
   <summary> Log File </summary>
-<h2 align="center">This is log file.</h2>
-
-  Tue Apr 27 21:41:36 IST 2021 /home/prarvesh/assignment [wget command] download the csv file using wget command /usr/bin/wget -q https://docs.google.com/spreadsheets/d/e/2PACX-1vS7d8UCm5qMNKz4PmFvQTSOcsmf-pVwmeNL88oAU51rdAup_GpnWC6ASrCLb4oD5grzS97Xbxf4uXiH/pub?output=csv
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [mv command] It rename the downloaded file using mv command /usr/bin/mv /home/prarvesh/assignment/pub?output=csv /home/prarvesh/assignment/sheet1.csv
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [count commas] count the no of commas before the Intern name0
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [add 2 in the previous result of commas] 2
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [total commas for extract the intern name column ] 2
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [count total no of commas before average column] 10
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [add 1 in the total no of commas before average column to get the exact average column] 10
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [commas for extract the average column] 11
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [value of total no of commas in a row] 10
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [give the required value of the number of commas] 8
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment[output] successfully print the required output
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [wget command] download the csv file using wget command /usr/bin/wget -q https://docs.google.com
-/spreadsheets/d/e/2PACX-1vQU2lDfo3k2-d-bKmY48JNMTrZ7jah4AmhKD1ED-i9WG5_R7WqAx6h8uKZR7VwIebUajDVYjDtcTQK4/pub?output=csv
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [mv command] It rename the downloaded file using mv command /usr/bin/mv /home/prarvesh/assignment/pub?output=csv /home/prarvesh/assignment/sheet2.csv
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [count commas] count the no of commas before the Intern name for sheet 2 0
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [add 2 in the previous result of commas] 2
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [total commas for extract the intern name column for sheet 2 ] 2
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [count total no of commas before average column for sheet 2] 10
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [add 1 in the total no of commas before average column to get the exact average column] 1
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [commas for extract the average column for sheet 2] 11
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [value of total no of commas in a row for sheet 2] 10
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [give the required value of the number of commas for sheet 2] 8
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment[output] successfully print the required output
+  
 
   
   </details> 
