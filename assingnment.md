@@ -12,7 +12,7 @@ Average :
 
 
 <details>
-  <summary> Test Cases </summary>
+  <summary>**Test Cases**</summary>
 
 |S.NO|Test Cases|Test Case Description|Expected Result|Test Status|Output|
 |:----:|:-----:|:-----:|:-----:|:-----:|:----:|
@@ -27,6 +27,58 @@ Average :
 |8 |**If Column and Row Value Null** |after add column and row in spreadsheet my output effected if column and row value null |Output should be updated with ignoring the null value |**Fail**|
  
  </details>
-            
+ 
+ 
+ <details>
+  <summary> Implementation </summary>
+  
+In this script, first of all I copied the spreadsheet link to csv link through web publish option.
+After that I downloaded the link to the spreadsheet with the wget command and rename the download file with the mv command.
+Then I got the required output from awk command.
+  
+  </details>
+  
+  
+  <details>
+  <summary> Explanation Of Implementation </summary>
+  
+In this script, first of all I copied the spreadsheet link to csv link through web publish option.
+After that I downloaded the link to the spreadsheet with the wget command and rename the download file with the mv command.
+Then I got the required output from awk command.
+  
+  </details>
+  
+  
+  
+  <details>
+  <summary> Configuration File </summary>
+  
+In this script, first of all I copied the spreadsheet link to csv link through web publish option.
+After that I downloaded the link to the spreadsheet with the wget command and rename the download file with the mv command.
+Then I got the required output from awk command.
+  
+  </details>
+  
+ 
+  
+ <details>
+  <summary> Script </summary>
+  
+In this script, first of all I copied the spreadsheet link to csv link through web publish option.
+After that I downloaded the link to the spreadsheet with the wget command and rename the download file with the mv command.
+Then I got the required output from awk command.
+  
+  </details>
+  
+  
+  
+ <details>
+  <summary> Log File </summary>
+  
+In this script, first of all I copied the spreadsheet link to csv link through web publish option.
+After that I downloaded the link to the spreadsheet with the wget command and rename the download file with the mv command.
+Then I got the required output from awk command.
+  
+  </details> 
 
     
