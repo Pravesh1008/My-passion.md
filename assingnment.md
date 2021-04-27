@@ -142,11 +142,11 @@ minus=2
 
 source /home/prarvesh/assignment/script.conf
 
-$ECHO "===================================================================================================================================================="
+$ECHO "=================================="
 
 $ECHO "Output of first sheet"
 
-$ECHO "===================================================================================================================================================="
+$ECHO "=================================="
 
 #wget is used with url to download the google spread sheet in csv format
 
@@ -196,7 +196,7 @@ $ECHO "$(date) $PWD [add 2 in the previous result of commas] $add" >> "$LOG" #st
 plus=$((count+add))
 
 $ECHO "$(date) $PWD [total commas for extract the intern name column ] $plus" >> "$LOG" #storing logs in the specified file
-#==================================================================================================================================================== 
+#=============================================================================== 
 
 #here for getting the exact column of Average
 
@@ -223,7 +223,7 @@ $ECHO "$(date) $PWD [add 1 in the total no of commas before average column to ge
 plus1=$((count1+add1))
 
 $ECHO "$(date) $PWD [commas for extract the average column] $plus1" >> "$LOG" #storing logs in the specified file 
-#====================================================================================================================================================
+#===========================================================================
 
 #sum  is used to store the value of total no of commas in row of specific name
 
@@ -236,7 +236,7 @@ $ECHO "$(date) $PWD [value of total no of commas in a row] $sum" >> "$LOG" #stor
 TOTAL=`expr $sum - $minus`
 
 $ECHO "$(date) $PWD [give the required value of the number of commas] $TOTAL" >> "$LOG" #storing logs in the specified file
-#=====================================================================================================================================================
+#==================================================
 
 #cat is used to read the file
 
@@ -247,17 +247,18 @@ $ECHO "$(date) $PWD [give the required value of the number of commas] $TOTAL" >>
 #average1 extract  the value from the $c and name1 extract the value from the $f and m extract the value from the $TOTAL 
 
 #$CAT $NEWFILE | $TAIL -n+4 | $AWK -F "," '{print "Name :  "$name1,  "\n" , "Sum :  "$average1*m,  "\n" , "Average :  "$average1,  "\n"}' name1=$plus average1=$plus1 m=$TOTAL
+
 cat $NEWFILE|$TAIL -n+4|$AWK -F "," '{print "Name :",$name1, "\n", "Sum :",$average1*m, "\n", "Average :",$average1, "\n"}' name1=$plus average1=$plus1 m=$TOTAL  
 
 $ECHO "$(date) $PWD"[output] successfully print the required output >> "$LOG" 
 
 fi
 
-$ECHO "===================================================================================================================================================="
+$ECHO "=========================================="
 
 $ECHO "Output of second sheet"
 
-$ECHO "===================================================================================================================================================="
+$ECHO "==========================================="
 
 #wget is used with url to download the google spread sheet in csv format
 
@@ -309,7 +310,7 @@ plus2=$((count2+add2))
 
 $ECHO "$(date) $PWD [total commas for extract the intern name column for sheet 2 ] $plus2" >> "$LOG" #storing logs in the specified file
 
-#==================================================================================================================================================== 
+#=================================================== 
 
 #here for getting the exact column of Average
 
@@ -336,7 +337,7 @@ $ECHO "$(date) $PWD [add 1 in the total no of commas before average column to ge
 plus3=$((count3+add3))
 
 $ECHO "$(date) $PWD [commas for extract the average column for sheet 2] $plus3" >> "$LOG" #storing logs in the specified file
-#====================================================================================================================================================
+#================================================
 
 #sum  is used to store the value of total no of commas in row of specific name
 
@@ -349,7 +350,7 @@ $ECHO "$(date) $PWD [value of total no of commas in a row for sheet 2] $sum1" >>
 TOTAL1=`expr $sum1 - $minus`
 
 $ECHO "$(date) $PWD [give the required value of the number of commas for sheet 2] $TOTAL1" >> "$LOG" #storing logs in the specified file
-#=====================================================================================================================================================
+#===================================
 
 #cat is used to read the file
 
@@ -362,6 +363,7 @@ $ECHO "$(date) $PWD [give the required value of the number of commas for sheet 2
 #$CAT $NEWFILE | $TAIL -n+4 | $AWK -F "," '{print "Name :  "$name1,  "\n" , "Sum :  "$average1*m,  "\n" , "Average :  "$average1,  "\n"}' name1=$plus average1=$plus1 m=$TOTAL
 
 cat $NEWFILE1|$TAIL -n+4|$AWK -F "," '{print "Name :",$name1, "\n", "Sum :",$average1*n, "\n", "Average :",$average1, "\n"}' name1=$plus2 average1=$plus3 n=$TOTAL1
+
 $ECHO "$(date) $PWD"[output] successfully print the required output >> "$LOG"
 
 fi
@@ -373,50 +375,6 @@ fi
  <details>
   <summary> Log File </summary>
   
-Tue Apr 27 21:41:36 IST 2021 /home/prarvesh/assignment [wget command] download the csv file using wget command /usr/bin/wget -q https://docs.google.com/spreadsheets/d/e/2PACX-1vS7d8UCm5qMNKz4PmFvQTSOcsmf-pVwmeNL88oAU51rdAup_GpnWC6ASrCLb4oD5grzS97Xbxf4uXiH/pub?output=csv
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [mv command] It rename the downloaded file using mv command /usr/bin/mv /home/prarvesh/assignment/pub?output=csv /home/prarvesh/assignment/sheet1.csv
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [count commas] count the no of commas before the Intern name0
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [add 2 in the previous result of commas] 2
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [total commas for extract the intern name column ] 2
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [count total no of commas before average column] 10
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [add 1 in the total no of commas before average column to get the exact average column] 10
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [commas for extract the average column] 11
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [value of total no of commas in a row] 10
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [give the required value of the number of commas] 8
-
-Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment[output] successfully print the required output
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [wget command] download the csv file using wget command /usr/bin/wget -q https://docs.google.com
-/spreadsheets/d/e/2PACX-1vQU2lDfo3k2-d-bKmY48JNMTrZ7jah4AmhKD1ED-i9WG5_R7WqAx6h8uKZR7VwIebUajDVYjDtcTQK4/pub?output=csv
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [mv command] It rename the downloaded file using mv command /usr/bin/mv /home/prarvesh/assignment/pub?output=csv /home/prarvesh/assignment/sheet2.csv
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [count commas] count the no of commas before the Intern name for sheet 2 0
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [add 2 in the previous result of commas] 2
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [total commas for extract the intern name column for sheet 2 ] 2
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [count total no of commas before average column for sheet 2] 10
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [add 1 in the total no of commas before average column to get the exact average column] 1
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [commas for extract the average column for sheet 2] 11
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [value of total no of commas in a row for sheet 2] 10
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment [give the required value of the number of commas for sheet 2] 8
-
-Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment[output] successfully print the required output
 
   
   </details> 
