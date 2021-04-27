@@ -2,8 +2,10 @@
 
 Make a script to download the google spreadsheet in csv format by using link and extract the required output from the file in the format
 
-Name :
-Sum :
+Name    : 
+
+Sum     :
+
 Average :
 
 
