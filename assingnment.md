@@ -32,7 +32,7 @@ Average :
  
  <details>
   <summary> Configuration File </summary>
-  
+<h2 align="center">This is Configuration file.</h2>  
 This is the main configuration file of script
 
 Here the declaration of the path of commands which used in script.
@@ -135,7 +135,7 @@ minus=2
   
  <details>
   <summary> Script </summary>
-  
+<h2 align="center">This is Script file.</h2>  
 #!/bin/bash
 
 #here we give the source of configuration file
