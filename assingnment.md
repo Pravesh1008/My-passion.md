@@ -374,6 +374,9 @@ fi
   
  <details>
   <summary> Log File </summary>
+
+# This is log file
+
   Tue Apr 27 21:41:36 IST 2021 /home/prarvesh/assignment [wget command] download the csv file using wget command /usr/bin/wget -q https://docs.google.com/spreadsheets/d/e/2PACX-1vS7d8UCm5qMNKz4PmFvQTSOcsmf-pVwmeNL88oAU51rdAup_GpnWC6ASrCLb4oD5grzS97Xbxf4uXiH/pub?output=csv
 
 Tue Apr 27 21:41:37 IST 2021 /home/prarvesh/assignment [mv command] It rename the downloaded file using mv command /usr/bin/mv /home/prarvesh/assignment/pub?output=csv /home/prarvesh/assignment/sheet1.csv
