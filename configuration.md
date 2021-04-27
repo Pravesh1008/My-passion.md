@@ -3,20 +3,31 @@
 ##Here the declaration of the path of commands which used in script.
 
 ECHO=/usr/bin/echo
+
 WGET=/usr/bin/wget
+
 MV=/usr/bin/mv
+
 CAT=/usr/bin/cat
+
 AWK=/usr/bin/awk
+
 TAIL=/usr/bin/tail
+
 TR=/usr/bin/tr
+
 RM=/usr/bin/rm
+
 MKDIR=/usr/bin/mkdir
+
 GREP=/usr/bin/grep
+
 WC=/usr/bin/wc
 
-
 #URLS used to download the google spread sheet in csv foormat
+
 #URL1 for spread sheet1
+
 #URL2 for spread sheet2
 
 URL1=https://docs.google.com/spreadsheets/d/e/2PACX-1vS7d8UCm5qMNKz4PmFvQTSOcsmf-pVwmeNL88oAU51rdAup_GpnWC6ASrCLb4oD5grzS97Xbxf4uXiH/pub?output=csv
