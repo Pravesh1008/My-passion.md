@@ -15,7 +15,10 @@
 |3 |**DOWNLOADING THE GOOGLE SPREAD SHEETS IN CSV FORMAT** |I used **$WGET** with url of the google spread sheet to download in csv format |Google spreadsheet in csv format should be downloaded |**PASS** |![proof](https://user-images.githubusercontent.com/82143446/115991630-07b0fc80-a5e7-11eb-993b-fa45d0ca8ab7.png)|
 |4 |**RENAME THE DOWNLOADED FILE** |Renamed  files which was downloading through 3 test case to sheet1.csv and sheet2.csv by using **$MV (DOWNLADED FILES NAME) (NEW FIES NAMES)** |Files should be renamed|**PASS** |
 |5 |**EXTRACT THE REQUIRED COLUMN** |I used AWK command to get the required column |Script should be run |**PASS**|
-|6 |**DISPLAY THE OUTPUT** |I used cat command to display the output |Script should be run |**PASS**                
+|6 |**DISPLAY THE OUTPUT using configuration file** |I used the source of connfiguration file in the script and run the script  |Script should be run and display the output |**PASS**| 
+|7 |**Adding the column in the spreadsheet** |Add the column in the spreadsheet and gives the word to all students |Output should be updated |**PASS**|
+|8 |**Adding the row in the spreadsheet** |Add the row in the spreadsheet and gives the word in all the columns |Output should be updated |**PASS**|
+|8 |**** |Add the row in the spreadsheet and gives the word in all the columns |Output should be updated |**PASS**|
          
             
 
