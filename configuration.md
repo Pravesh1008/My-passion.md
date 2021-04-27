@@ -1,4 +1,4 @@
-#This is the main configuration file of script
+### This is the main configuration file of script
 
 ##Here the declaration of the path of commands which used in script.
 
