@@ -16,7 +16,7 @@ Average :
 
 |S.NO|Test Cases|Test Case Description|Expected Result|Test Status|Output|
 |:----:|:-----:|:-----:|:-----:|:-----:|:----:|
-|1 |**Published Url** |no command|Spread sheet link published by using publish to web option from file of spreadsheet and select the .csv format |Url should be published|**PASS** |![web publishing](https://user-images.githubusercontent.com/82143446/115991250-4e9df280-a5e5-11eb-827e-d3c267165e33.png)|
+|1 |**Published Url** |Spread sheet link published by using publish to web option from file of spreadsheet and select the .csv format |Url should be published|**PASS** |![web publishing](https://user-images.githubusercontent.com/82143446/115991250-4e9df280-a5e5-11eb-827e-d3c267165e33.png)|
 |2 |**Declaring the path of commands in variable** |I declared the path of commands in variables in the configuration file which i used in the script  |Path of command should be declare in the variable |**PASS** |![variable](https://user-images.githubusercontent.com/82143446/116283206-3e367500-a7a9-11eb-9c8f-11058d759b37.png)|
 |3 |**DOWNLOADING THE GOOGLE SPREAD SHEETS IN CSV FORMAT** |wget -q url|I used **$WGET** with url of the google spread sheet to download in csv format |Google spreadsheet in csv format should be downloaded |**PASS** |![proof](https://user-images.githubusercontent.com/82143446/115991630-07b0fc80-a5e7-11eb-993b-fa45d0ca8ab7.png)|
 |4 |**RENAME THE DOWNLOADED FILE** |mv oldfilename newfilename|Renamed  files which was downloading through 3 test case to sheet1.csv and sheet2.csv by using **$MV (DOWNLADED FILES NAME) (NEW FIES NAMES)** |Files should be renamed|**PASS** |output|
