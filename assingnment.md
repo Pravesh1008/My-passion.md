@@ -18,7 +18,7 @@
 |6 |**DISPLAY THE OUTPUT using configuration file** |I used the source of connfiguration file in the script and run the script  |Script should be run and display the output |**PASS**| 
 |7 |**Adding the column in the spreadsheet** |Add the column in the spreadsheet and gives the word to all students |Output should be updated |**PASS**|
 |8 |**Adding the row in the spreadsheet** |Add the row in the spreadsheet and gives the word in all the columns |Output should be updated |**PASS**|
-|8 |**** |Add the row in the spreadsheet and gives the word in all the columns |Output should be updated |**PASS**|
+|8 |**If Column and Row Value Null** |after add column and row in spreadsheet my output effected if column and row value null |Output should be updated with ignoring the null value |**Fail**|
          
             
 
