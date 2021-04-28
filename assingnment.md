@@ -36,6 +36,12 @@ This is the main configuration file of script
 
 ##Here the declaration of the path of commands which used in script.
 
+#This is the main configuration file of script
+
+##Here the declaration of the path of commands which used in script.
+
+CP=/usr/bin/cp
+
 ECHO=/usr/bin/echo
 
 WGET=/usr/bin/wget
@@ -84,7 +90,6 @@ OLDFILE1=/home/prarvesh/assignment/pub?output=csv
 
 NEWFILE1=/home/prarvesh/assignment/sheet2.csv
 
-
 #Here the column of the spread sheet
 
 COLUMN1=name
@@ -113,9 +118,13 @@ COLUMN3=punctuality
 
 COLUMN13=Intern Name
 
-#Directory of datafile
+#datafile for output
 
-DIR=/home/prarvesh/datafile
+DIR=/home/prarvesh/datafile/output
+
+#datafile for downloaded file
+
+DIR1=/home/prarvesh/datafile
 
 #Log file of script
 
@@ -124,7 +133,6 @@ LOG=/home/prarvesh/script.log
 #set the required value to calculate the sum
 
 minus=2
-
   
   </details>
   
