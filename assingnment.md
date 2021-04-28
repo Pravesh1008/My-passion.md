@@ -1,15 +1,17 @@
 <h1 align="center">Task-3</h1>
 
 <details>
+  
   <summary> OBJECTIVE </summary>
+
 
 Make a script to download the google spreadsheet in csv format by using link and extract the required output from the file in the format
 
-Name    : 
+#### Name    : 
 
-Sum     :
+#### Sum     :
 
-Average :
+#### Average :
 
 </details>
 
