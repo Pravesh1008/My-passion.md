@@ -3,7 +3,7 @@
 <details>
   
   <summary> OBJECTIVE </summary>
-
+<h2 align="center"> Objective: </h2>
 
 Make a script to download the google spreadsheet in csv format by using link and extract the required output from the file in the format
 
@@ -18,6 +18,8 @@ Make a script to download the google spreadsheet in csv format by using link and
 
 <details>
   <summary> Test Cases </summary>
+  
+  <h2 align="center"> Test cases: </h2>
 
 |S.NO|Test Cases|Test Case Description|Expected Result|Test Status|Output|
 |:----:|:-----:|:-----:|:-----:|:-----:|:----:|
@@ -36,7 +38,7 @@ Make a script to download the google spreadsheet in csv format by using link and
  
  <details>
   <summary> Configuration File </summary>
-<h2 align="center">This is Configuration file.</h2>  
+<h2 align="center"> Configuration file: </h2>  
 This is the main configuration file of script
 
 ##Here the declaration of the path of commands which used in script.
@@ -145,7 +147,8 @@ minus=2
   
  <details>
   <summary> Script </summary>
-<h2 align="center">This is Script file.</h2>  
+
+<h2 align="center"> Script file: </h2>  
 
 #!/bin/bash
 
@@ -402,7 +405,7 @@ fi
     
  <details>
   <summary> Log File </summary>
-<h2 align="center">This is log file.</h2>
+<h2 align="center"> Log file: </h2>
 
   Tue Apr 27 21:41:36 IST 2021 /home/prarvesh/assignment [wget command] download the csv file using wget command /usr/bin/wget -q https://docs.google.com/spreadsheets/d/e/2PACX-1vS7d8UCm5qMNKz4PmFvQTSOcsmf-pVwmeNL88oAU51rdAup_GpnWC6ASrCLb4oD5grzS97Xbxf4uXiH/pub?output=csv
 
@@ -454,7 +457,7 @@ Tue Apr 27 21:41:39 IST 2021 /home/prarvesh/assignment[output] successfully prin
 
 <details>
   <summary> Conclusion </summary>
-  
+  <h2 align="center"> Conclusion: </h2>
  I have completed my given task. The given script is doing its job correctly.
   
   </details>
