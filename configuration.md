@@ -27,34 +27,34 @@ GREP=/usr/bin/grep
 WC=/usr/bin/wc
 
 
-# URLS used to download the google spread sheet in csv foormat
+#URLS used to download the google spread sheet in csv foormat
 
-# URL1 for spread sheet1
+#URL1 for spread sheet1
 
-# URL2 for spread sheet2
+#URL2 for spread sheet2
 
 URL1=https://docs.google.com/spreadsheets/d/e/2PACX-1vS7d8UCm5qMNKz4PmFvQTSOcsmf-pVwmeNL88oAU51rdAup_GpnWC6ASrCLb4oD5grzS97Xbxf4uXiH/pub?output=csv
 
 URL2=https://docs.google.com/spreadsheets/d/e/2PACX-1vQU2lDfo3k2-d-bKmY48JNMTrZ7jah4AmhKD1ED-i9WG5_R7WqAx6h8uKZR7VwIebUajDVYjDtcTQK4/pub?output=csv
 
-# Option with wget
+#Option with wget
 
 option=-q
 
-# Rename the downloaded file for sheet 1
+#Rename the downloaded file for sheet 1
 
 OLDFILE=/home/prarvesh/assignment/pub?output=csv
 
 NEWFILE=/home/prarvesh/assignment/sheet1.csv
 
-# Rename the downloaded file for sheet 2
+#Rename the downloaded file for sheet 2
 
 OLDFILE1=/home/prarvesh/assignment/pub?output=csv
 
 NEWFILE1=/home/prarvesh/assignment/sheet2.csv
 
 
-# Here the column of the spread sheet
+#Here the column of the spread sheet
 
 COLUMN1=name
 
@@ -82,18 +82,18 @@ COLUMN3=punctuality
 
 COLUMN13=Intern Name
 
-# datafile for output
+#datafile for output
 
 DIR=/home/prarvesh/datafile/output
 
-# datafile for downloaded file
+#datafile for downloaded file
 
 DIR1=/home/prarvesh/datafile
 
-# Log file of script
+#Log file of script
 
 LOG=/home/prarvesh/script.log
 
-# set the required value to calculate the sum
+#set the required value to calculate the sum
 
 minus=2
