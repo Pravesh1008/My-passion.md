@@ -1,3 +1,10 @@
+<h2 align="center"> Task: </h2>
+
+Setup the mail server on rhel 6
+
+</br>
+
+
 <h2 align="center"> Test cases: </h2>
 
 |S.NO|Test Cases|Test Case Description|Expected Result|Test Status|
@@ -19,3 +26,7 @@
 |16|**restart the httpd** |I started the httpd by using this command **service restart httpd**  |httpd should be restart |**PASS** |
 |17|**Enable the httpd** |I enable the httpd by using **chkconfig httpd on** |Postfix should be enable |**PASS** |
 |18|**Testing the squirrelmail** |Go to the browser and search **ip address/mywebmail** and login with user and send the mail and receive the mail |squirrelmail should work properly |**PASS** |
+```sh
+Thanks
+Pravesh
+```
