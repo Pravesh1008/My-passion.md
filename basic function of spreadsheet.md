@@ -14,7 +14,6 @@ Table has rows and column.
 - Inserting Image
 - Copy
 - Paste
-- Graph
 - Basic 
 - formulas
 ```sh
