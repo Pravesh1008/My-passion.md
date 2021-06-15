@@ -12,7 +12,8 @@
  
  
   ## Currently what am i doing  <img align="right" src="https://i.giphy.com/media/LmNwrBhejkK9EFP504/200w.webp" alt="Programmation" width="200" />
-- 🔭 I’m currently working on Linux,Apache,Ftp,Nfs 🌱!
+- 🔭 I’m currently working on Linux,Apache,Ftp,Nfs,Postgres,Tomcat 🌱!
+- ⚡  Knowledge of docker, Mysql, Ldap server,mail server, Haproxy.
 - 🌱 I have almost completed RHCE Course from Fostering Linux 🤣
 - ⚡ Fun fact: I love to do unplanned work
 
