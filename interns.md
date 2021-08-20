@@ -2,10 +2,10 @@
 ## Test Cases:
 |S.NO|Test Cases|Test Case Description|Expected Result|Test Status|Output|
 |:----:|:-----:|:-----:|:-----:|:-----:|:----:|
-|1 |**login into gmail account** |we have to login into gmail account via script | | 
-|2 |**looking for mail interns@fosteringlinux.com** |we have to add a filter in script to looking for a specific mail address after login | | 
-|3 |**fetch a mail of specific subject from interns@fosteringlinux.com** |After getting interns@fosteringlinux.com we have to fetch mail through subject line | |
-|4 |**Fetching mail from particular name** |we have to fetch mail from particular name (of specific subject) | |
-|5 |**Fetching mail of particular date** |we have to fetch mail on particular date | |
-|6 |**download in csv format and save in a file** |we have to download the mails in csv | |
-|7 |**according to requirment insert data into spread sheet** |insert data into spread sheet | |
+|1 |**login into gmail account** |Using python script  to login into gmail account |should be login into gmail | Pass|
+|2 |**Fetching mail from gmail and redirect into a file** |Fetch mail from gmail using python script |mail should be fetch and redirect into file | Pass| 
+|3 |**grep a mail interns@fosteringlinux.com** |grep a mail interns@fosteringlinux.com from a file and redirect into file |should be grep interns@fosteringlinux.com |Pass |
+|4 |**Grep a subject intern attendance** |grep a subject intern attedance from a file and redirect into file |should be grep subject intern attendance |Pass |
+|5 |**Print the required output** |Print the required output using awk and redirect into a file |require output should be print |Pass |
+|6 |**display the file** |display the file using cat command |File should be display |Pass  |
+
